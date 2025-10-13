@@ -1,4 +1,4 @@
-  The origin repository is [[Link https](//github.com/141forever/inductive-reasoning-papers)].
+  The origin repository is [[Link](https://github.com/141forever/inductive-reasoning-papers)].
 
 # Inductive Reasoning
 
