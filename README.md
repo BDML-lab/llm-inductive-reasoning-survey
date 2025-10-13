@@ -1,3 +1,5 @@
+  The origin repository is [[Link https](//github.com/141forever/inductive-reasoning-papers)].
+
 # Inductive Reasoning
 
 Inductive reasoning involves drawing general conclusions from specific observations.
