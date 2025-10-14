@@ -16,12 +16,12 @@ We give two examples of inductive reasoning in the figure below.
 
 # About the Survey
 
-We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction’ .
+We have made every effort to collect all top-conference papers from 2015 to 2025 whose titles contain the words ‘inductive’ or ‘induction’.
 These conferences include, but are not limited to, NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, COLING, and EACL. 
 All collected papers are listed below, and their statistics are summarized in the following table. 
 We have conducted a rough categorization of these papers, which may contain errors or overlaps, and we kindly ask for the readers’ understanding.
 Our survey focuses on synthesizing and analyzing papers from this list that are related to inductive tasks and language models.
-This is the link to our survey [[ARXIV]]().
+This is the link to our survey [[ARXIV](https://arxiv.org/abs/2510.10182)].
 
 | Conference | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
 |-------------|------|------|------|------|------|------|------|------|------|------|------|
@@ -40,6 +40,15 @@ If you find any points in our survey worth discussing or notice any mistakes, fe
 # Citation
 If you think this survey helps, welcome to cite our paper.
 ```
+@misc{chen2025surveyinductivereasoninglarge,
+      title={A Survey of Inductive Reasoning for Large Language Models}, 
+      author={Kedi Chen and Dezhao Ruan and Yuhao Dan and Yaoting Wang and Siyu Yan and Xuecheng Wu and Yinqi Zhang and Qin Chen and Jie Zhou and Liang He and Biqing Qi and Linyang Li and Qipeng Guo and Xiaoming Shi and Wei Zhang},
+      year={2025},
+      eprint={2510.10182},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.10182}, 
+}
 ```
 
 
