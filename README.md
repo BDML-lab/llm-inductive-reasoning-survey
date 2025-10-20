@@ -56,302 +56,147 @@ If you think this survey helps, welcome to cite our paper.
 # The Paper Collections
 
 
-## Importance
+## Overview
 
 1. **When Is Inductive Inference Possible?** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/a8808b75b299d64a23255bc8d30fb786-Paper-Conference.pdf)]
-
-     归纳推理的小综述。
 
 
 ## Benchmarks, Datasets and Tasks
 
 1. **On the Transfer of Inductive Bias from Simulation to the Real World: a New Disentanglement Dataset** [NIPS2019] [[paper link](https://papers.nips.cc/paper_files/paper/2019/file/d97d404b6119214e4a7018391195240a-Paper.pdf)]
 
-     提出了一个数据集，通过真实机械臂采样而来的，包含超过一百万张物理三维物体的图像，拥有三个子集，以提升模型的迁移效果和inductive bias。【MPI3D】【disentanglement metrics】【各类VAE模型】
-
 2. **Learning abstract structure for drawing by efficient motor program induction** [NIPS2020] [[paper link](https://papers.nips.cc/paper_files/paper/2020/file/1c104b9c0accfca52ef21728eaf01453-Paper.pdf)]
-
-    研究人类如何几次演练后便构建出抽象的、可复用的程序性先验知识，供模型学习。揭示两大元学习原则：abstraction（抽象）和compositionality（组合）是构成人类快速学习结构化表示的关键，同时强调motor efficiency的先验在真实行为再现中必不可少。【手绘风格图形】【stroke order, motor trajectory, 模型重现度】【PI,Hybrid等】
 
 3. **A large-scale benchmark for few-shot program induction and synthesis** [ICML2021] [[paper link](https://proceedings.mlr.press/v139/alet21a/alet21a.pdf)]
 
-     PROGES，一个程序归纳benchmark。
-
 4. **What Has a Foundation Model Found? Inductive Bias Reveals World Models** [ICML2025] [[paper link](https://openreview.net/pdf?id=i9npQatSev)]
-
-     通过构造与已知世界模型（如牛顿力学）一致的合成数据集，测试基础模型在新任务上的适应能力，进而评估其归纳偏差是否与世界模型一致。
 
 5. **Unsupervised Vision-Language Grammar Induction with Shared Structure Modeling** [ICLR2022] [[paper link](https://openreview.net/pdf?id=N0n_QyQ5lBF)]
 
-   无监督的视觉–语言（vision‑language, VL）语法归纳任务，即从给定的图像与其描述文字对中，同时归纳出共享的、层级化的结构（如句法树），旨在促进对图像与语言中共同结构的深层理解。任务名称：VL grammar induction。数据集名称：Flickr30k Entities。指标：CCRA。
-
 6. **GeoILP: A Synthetic Dataset to Guide Large‑Scale Rule Induction** [ICLR2025] [[paper link](https://openreview.net/pdf?id=cfGpIcOIa5)]
-
-   传统 Inductive Logic Programming（ILP）系统 通常只针对小规模、语言偏见单一的任务设计，对于包含复杂语言偏差的大规模几何归纳任务表现有限。且大多数 ILP 系统需要专家手工设定语言 bias（例如定义可用谓词、递归深度等），这限制了 ILP 的自动化应用和普适化发展。因此，论文动机在于创建一个大规模、涵盖多种语言 bias 的合成数据集，推动研究者探索无需人工干预、可自动进行规则归纳的系统。数据集名称：GeoILP。
 
 7. **MIRAGE: Evaluating and Explaining Inductive Reasoning Process in Language Models** [ICLR2025] [[paper link](https://arxiv.org/pdf/2410.09542)]
 
-   MIRAGE数据集。
-
 8. **MTR:A Dataset Fusing Inductive, Deductive, and Defeasible Reasoning** [ACL2023] [[paper link](https://aclanthology.org/2023.findings-acl.640.pdf)]
-
-    现有的数据集大多只关注单一类型的推理，提出了一个新的数据集MTR，旨在融合归纳推理、演绎推理和可废止推理，采用半自动方法生成数据集，包括逻辑生成、逻辑修正和自然语言生成。【关系推理任务】【MTR】【准确率】【BiLSTM、BERT等】
 
 9. **InductionBench: LLMs Fail in the Simplest Complexity Class** [ACL2025] [[paper link](https://aclanthology.org/2025.acl-long.1287.pdf)]
 
-    提出InductionBench，一个基于子正则函数层级（subregular hierarchy）的基准测试，通过生成不同复杂度的字符串转换任务（如ISL、L-OSL、R-OSL函数），评估LLM从输入-输出对中推断规则的能力。【字符串到字符串的转换，要求模型从输入-输出对中推断规则】【动态生成的合成数据集】【精确率、召回率、兼容性】【LLMs】
-
 10. **Enhancing Large Language Models Against Inductive Instructions with Dual-critique Prompting** [NAACL2024] [[paper link](https://aclanthology.org/2024.naacl-long.299.pdf)]
-
-    研究LLMs在处理包含错误前提或恶意意图的用户指令时的表现。构建INDUST基准：包含三种类型的归纳指令（事实检查指令FCI、基于错误前提的问题QFP、基于错误前提的创造性指令CIFP）。通过两个步骤增强模型对错误指令的识别能力：
-    用户批判（User-critique）：模型检查用户指令中的错误或有害信息。自我批判（Self-critique）：模型在生成回答时自我审查以避免传播错误内容。【评估和改进LLMs对归纳指令的处理能力】【INDUST，LINDUST】【真实性（Truthfulness），帮助性（Helpfulness）】【LLMs】
 
 11. **CLUTRR:ADiagnostic Benchmark for Inductive Reasoning from Text** [EMNLP2019] [[paper link](https://aclanthology.org/D19-1458.pdf)]
 
-    自然语言理解（NLU）在未见过的逻辑规则组合或噪声数据时表现不佳。引入基准测试（CLUTRR），评估模型在归纳推理和系统性泛化方面的能力。通过生成涉及虚构家族的短篇故事，要求模型推断未明确提及的两个家庭成员之间的关系。文本模型模型（如BERT、MAC）在系统性泛化上落后于直接处理符号化输入的GAT模型。【短篇故事中推断亲属关系】【CLUTRR（半合成生成的故事）】【准确率】【文本模型、GAT】
-
 12. **A Benchmark for Semi-Inductive Link Prediction in Knowledge Graphs** [EMNLP2023] [[paper link](https://aclanthology.org/2023.findings-emnlp.713.pdf)]
-
-    提出Wikidata5M-SI的基准测试，用于评估知识图谱中半归纳链接预测模型。该基准基于Wikidata5M数据集。任务类型：直推式、少量样本和零样本链接预测；上下文信息：从仅依赖KG结构、包含实体提及到包含详细描述。【半归纳链接预测（SI-LP）】【Wikidata5M-SI】【MRR和Hits@K（K=1, 3, 10）】【图模型、文本模型、混合模型】
 
 13. **Language Models as Inductive Reasoners** [EACL 2024] [[paper link](https://aclanthology.org/2024.eacl-long.13.pdf)]
 
-    本文提出一种新的归纳推理范式：以自然语言形式表示事实与规则，并使用预训练语言模型作为“推理者”从自然语言事实中归纳生成自然语言规则。作者构建了专用数据集 DEER（包含约 1,200 对事实–规则对），并设计新自动评估指标，同时提出哲学启发的归纳框架，在自动和人类评价中均显著优于基线方法，首次全面分析预训练语言模型在自然语言归纳规则推理任务中的性能。【归纳式规则归纳】【DEER（自然语言事实–规则对）】【自动评估指标 + 人类评价性能】【预训练语言模型作为归纳推理者 + 哲学启发框架】
-
 14. **RuDSI: Graph-based Word Sense Induction Dataset for Russian** [TextGraphs-16 (2022)] [[paper link](https://aclanthology.org/2022.textgraphs-1.9/)]
-
-     本文提出 RuDSI——一种基于图结构的俄语词义归纳（WSI）数据集，利用俄国国家语料库构建语境用法图（Word Usage Graphs, WUGs），通过人工标注与半自动图聚类生成词义，完全数据驱动，无预先定义的词义标签；分析注释流程与聚类参数对结果的影响，并评估多个基线 WSI 方法在此数据集上的表现。【词义归纳】【Russian National Corpus（WUG 构造）】【聚类质量指标（如 ARI 等）】【—（数据集基准方法）】
 
 15. **ShadowSense: A Multi-annotated Dataset for Evaluating Word Sense Induction** [LREC-COLING 2024] [[paper link](https://aclanthology.org/2024.lrec-main.1286/)]
 
-     本文提出 ShadowSense —— 一个针对词义归纳（WSI）任务的新型双语（捷克语–英语）数据集，其特点在于每个实例由多位（最多十位）标注者独立注释，以记录标注者间一致性作为评价系统可靠性的关键依据。作者详细描述注释流程、语境用法聚类方法，以及如何利用标注一致性对实例加权或过滤，从而构建更稳健的评估机制。同时，评估了三种神经 WSI 系统，展示在该数据集上的表现与传统评估范式具有显著差异。【词义归纳】【捷克语–英语双语语料 + 多标注者注释】【标注者一致性权重评估（可加权或剔除低一致性实例）】【—】  
-
-
 16. **Code-Driven Inductive Synthesis: Enhancing Reasoning Abilities of Large Language Models with Sequences** [Arxiv2025] [[paper link](https://arxiv.org/abs/2503.13109)]
-
-     提出了一种基于数列的类比推理合成数据管线，以code为呈现形式构建了一批SFT合成数据，有效的提高了LLMs的类比推理和code推理能力。
 
 
 ## Explanations and Explorations
 
 1. **A New Neural Kernel Regime: The Inductive Bias of Multi-Task Learning** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/fdff3c4130c24c40c88aa41eb52d2a27-Paper-Conference.pdf)]
 
-   多任务学习（MTL）的归纳偏置如何影响神经网络的泛化行为？。扩展神经核理论到MTL场景，定义多任务神经核（Multi-Task Neural Kernel, MTNK），刻画任务梯度交互对核演化的影响。【多任务回归与分类】【MultiMNIST,CelebA】【核相似性和任务性能】【MLP,ResNet】
-
 2. **The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/75b0edb869e2cd509d64d0e8ff446bc1-Paper-Conference.pdf)]
-
-   使用induction head来解释LLM的ICL内在机理。【ICL‑MC】【合成马尔可夫链序列数据集】【与uniform,unigram,bigram策略计算KL散度】【2‑layer attention‑only Transformer】
 
 3. **Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/7aae9e3ec211249e05bd07271a6b1441-Paper-Conference.pdf)]
 
-   Transformer在大规模语言模型中展现出强大的ICL能力，而“induction heads”作为关键结构已被经验发现，但其训练动力学与各组件如何协同构建这种机制仍缺乏理论性的解析。最后证明了证明在真实Transformer架构中，训练过程自发构建generalized induction head。【n‑gram马尔可夫链中的next‑token预测】【合成马尔可夫链序列数据集】【loss等】【2‑layer attention‑only Transformer】
-
 4. **Inductive biases of multi-task learning and finetuning: multiple regimes of feature reuse** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/d7346ff79699b5bba26f8af89e700a95-Paper-Conference.pdf)]
-
-   理解多任务学习（MTL）和微调（finetuning）中特征重用的内在机制。现有研究缺乏对这两种范式下模型参数如何动态变化、不同层特征如何被重用以及任务相似性如何影响性能的系统分析。【多任务分类,跨域分类】【MultiMNIST,CIFAR】【准确率】【MLP,resnet,ViT】
 
 5. **Demystifying Inductive Biases for (Beta-)VAE Based Architectures** [ICML2021] [[paper link](http://proceedings.mlr.press/v139/zietlow21a/zietlow21a.pdf)]
 
-   明确指出β‑VAE能disentangle的成功并非来自模型本身的能力，而是dataset varianc 结构与模型 objective 的偶然对齐。通过dataset perturbation实验呈现：当这种结构被破坏后，即factors labels仍保留，β‑VAE系统仍失败，说明评测需考虑bias而非模型普适性。强调开发更一般的disentangle方法需要设计更通用的 inductive bias或弱监督，而不能依赖dataset人为结构。【无监督disentangled表征学习】【dSprites和Shapes3D】【disentanglement metrics】【VAE系列】
-
 6. **Fast Rates for Noisy Interpolation Require Rethinking the Effects of Inductive Bias** [ICML2022] [[paper link](https://proceedings.mlr.press/v162/donhauser22a/donhauser22a.pdf)]
-
-   传统统计观点认为：过拟合（interpolation）噪声会导致泛化性能差，因此需要正则化。但现代深度或高维模型在噪声情况下仍能很好泛化，尤其是在无正则化下。作者认为这与“明确的强inductive bias不再总是优越，尤其在存在噪声时可能反而适得其反。他们提出：更弱一些（适中）的inductive bias可能带来更好泛化性能。【回归与分类任务】【MNIST/CNTK】【estimation error或分类error rate】【ML方法】
 
 7. **Inductive Biases and Variable Creation in Self-Attention Mechanisms** [ICML2022] [[paper link](https://proceedings.mlr.press/v162/edelman22a/edelman22a.pdf)]
 
-   该论文旨在从理论角度揭示Transformer自注意力模块的inductive bias。Inductive bias 的定义：模型的结构假设引导其在有限样本下偏向某类函数，从而实现泛化。在本作中，提出的sparse variable creation概念恰恰是Transformer的一种inductive bias：偏向于表示输入中少数子集上的稀疏依赖函数。该bias从理论上限制了模型的容量（norm-bound + covering bounds），并导致泛化样本复杂度只与s而非T线性相关，是一种隐含inductive偏好。
-
 8. **The SSL Interplay: Augmentations, Inductive Bias, and Generalization** [ICML2023] [[paper link](https://openreview.net/pdf?id=d2aohFmZoB)]
-
-   数据增强（Augmentations）和归纳偏置（Inductive Biases）在自监督学习中的作用。（1）卷积神经网络的平移不变性：卷积操作本身就带有一种自然的归纳偏置，即对平移的不变性。文章探讨了这种归纳偏置如何与数据增强方法（如裁剪、旋转）相互作用，帮助模型在训练过程中有效学习。（2）对称性、稀疏性等偏置：通过在网络设计中引入对称性、稀疏性等结构性归纳偏置，模型能够更加高效地从数据中提取信息。（3）数据增强中的归纳偏置：不同的增强方法（如颜色变换、旋转等）也引入了不同的归纳偏置，文章讨论了如何选择适合特定任务的增强策略，并通过归纳偏置优化模型性能。【自监督学习】【CIFAR-100, ImageNet等】【ACC】【CNN, Transformers等等】
 
 9. **Position: The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning** [ICML2024] [[paper link](https://openreview.net/pdf?id=EaJ7nqJ2Fa)]
 
-   simplicity bias（即偏好简单假设），并将其视为一种inductive bias，主张神经网络结构与训练过程（尤其是 SGD）天然偏向于低Kolmogorov复杂度的函数解释，这本身即体现inductive bias的作用。
-
 10. **Towards Understanding Inductive Bias in Transformers: A View From Infinity** [ICML2024] [[paper link](https://openreview.net/pdf?id=HOMXUneCTR)]
-
-    为什么Transformer在训练样本有限的情况下也能泛化？论文核心即在探讨Transformer 的inductive bias：通过 GP prior（kernel）定义其偏好函数空间，即定义其 inductive bias；EK谱分解里的eigenvalues与eigenfunctions表征哪些函数更易学习，哪些难以学习，是inductive bias的具体体现；基于置换对称性的表示论结构，说明 Transformer 更倾向于学习对置换不变或高度对称的函数，这是模型的归纳偏好直接机制。
 
 11. **What needs to go right for an induction head? A mechanistic study of in-context learning circuits and their formation** [ICML2024] [[paper link](https://openreview.net/pdf?id=O8rrXl71D5)]
 
-    深入理解Transformer中in‑context learning（ICL）的机制，induction head是match‑and‑copy操作的attention head，用于识别上下文token并复制它们，是in‑context learning的关键induction operator。
-
 12. **When Diffusion Models Memorize: Inductive Biases in Probability Flow of Minimum-Norm Shallow Neural Nets** [ICML2025] [[paper link](https://openreview.net/pdf?id=WD2CKUrxmx)]
-
-    diffusion中最小范数解的选择实际上是一种inductive bias：模型偏好ℓ₂-minimization的denoiser，从而影响生成轨迹。Moonlight的score flow和probability flow的收敛特性体现出对训练样本结构的inductive preference：如正交几何结构引导流向训练点或组合点。early stopping time scheduler本质也是一种inductive bias：它决定模型 bias towards generalization（选择 manifold 点）或 memorization（停在训练样本）。
 
 13. **Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence** [ICML2025] [[paper link](https://openreview.net/pdf?id=Xw01vF13aV)]
 
-      先前的研究将诱导头（induction heads）与 ICL通过准确率的突然跃升联系起来，但这仅能解释在上下文中包含答案时的ICL。然而，实际应用中的ICL特性是模型能够从上下文中元学习如何解决任务，而不仅仅是复制上下文中的答案。如何在训练过程中获得这种能力仍然是一个未解之谜。本研究旨在通过分析模型在训练过程中的电路动态，实验性地阐明这种元学习能力是如何获得的。
-
 14. **Stability and Generalization Capability of Subgraph Reasoning Models for Inductive Knowledge Graph Completion** [ICML2025] [[paper link](https://openreview.net/pdf?id=NE6Px91RkQ)]
-
-      传统的图神经网络（GNN）在处理知识图谱（KG）补全任务时，通常假设训练和推理阶段的图结构相同。然而，在实际应用中，推理阶段可能会遇到新的实体和关系，这要求模型具备归纳能力。子图推理模型通过利用目标三元组周围的子图进行推理，已在归纳知识图谱补全（Inductive KGC）任务中取得了显著的实证成功。然而，这些模型的理论性质，如稳定性和泛化能力，尚未得到充分研究。因此，本文旨在首次从理论上分析子图推理模型的稳定性与其泛化能力之间的关系。本文通过引入稳定性度量和泛化界限，从理论上分析了子图推理模型的稳定性与其泛化能力之间的关系。
 
 15. **The Inductive Bias of ReLU Networks on Orthogonally Separable Data** [ICLR2021] [[paper link](https://openreview.net/pdf?id=krz7T0xU9Z_)]
 
-      理解 ReLU 神经网络的隐式归纳偏置（inductive bias）：即训练算法（gradient flow）在无限多零训练误差解中会偏向哪个，并决定其泛化能力。此前线性模型（如 Logistic regression）已有 max‑margin 偏置理论，但对于非线性的 ReLU 网络尚无类似明确定理。无论网络宽度多大，gradient flow 最终会使 neuron 聚焦于正负两个子集的 max-margin 划分方向，具有普适性。
-
 16. **What they do when in doubt: a study of inductive biases in seq2seq learners** [ICLR2021] [[paper link](https://arxiv.org/abs/2006.14953)]
-
-      seq2seq 模型广泛应用于翻译、对话等任务，但对其 归纳偏置（inductive bias） 仅有有限理解——即训练数据不足时它们会倾向哪种“规则”进行泛化？系统比较不同 seq2seq 架构（LSTM、Transformer、CNN）在面对高度歧义训练数据时的泛化偏好（即喜欢哪类规则）。不同架构之间表现出稳定且系统的偏好：LSTM 和 Transformer 更偏向 hierarchical induction（层次结构），CNN 更偏向 linear / sequential generalization（线性位置规则）。同时，CNN（以及 LSTM）更倾向 compositional reasoning（组合泛化），Transformer 则偏向 memorization。【四个合成任务】【四种模式合成任务对应数据集】【FPA, description length】【LSTM/CNN/Transformer】
 
 17. **Predicting Inductive Biases of Pre-Trained Models** [ICLR2021] [[paper link](https://openreview.net/pdf?id=mNtmhaDkAr)]
 
-      当前主流 预训练‑微调模型 在 NLP 任务中广受成功，但研究发现两种分析方法产生的结论常常矛盾：Probing classifier 表明预训练模型中能提取丰富的语言结构特征；Challenge set 分析却显示微调后的模型往往使用训练集中常见的启发式（spurious heuristic），未使用潜在语言知识。t：target feature（理论上应当依赖的结构语言特征，如语法结构）。s：spurious feature（与目标标签相关但非语法结构的启发式特征，如特定词语出现）。因此，作者提出假设：对于某个特征t，其是否被 fine‑tuned 模型采纳，取决于两个因素：在预训练表示中该特征的 extractability（可提取性）；在微调数据中该特征作为标签线索的 co‑occurrence frequency（证据量）。作者将 probing 中的 feature extractability 视为预训练模型的 inductive bias，即模型更容易使用的特征。【synthetic NLI/P probing tasks与自然语言推理challenge‑set】【多种合成数据与真实的NLI数据集】【测量是否模型依赖t还是s】【Bert和GPT系列】
-
 18. **Deconstructing the Inductive Biases of Hamiltonian Neural Networks** [ICLR2022] [[paper link](https://arxiv.org/pdf/2202.04836)]
-
-      物理启发型模型（如 Hamiltonian Neural Networks, HNN）因强 inductive bias 通常比普通神经网络更能泛化，但它们难以应用于不满足能量守恒或存在碰撞、摩擦等情境（如机器人与强化学习任务中常见）。作者质疑传统观点——认为 HNN 的优越表现源自对称几何结构或能量守恒；于是他们希望拆分 HNN 内部的偏置成分，理解究竟哪些 bias 在实际成功中起主导作用，以及如何在非理想系统中调整这类偏好。
 
 19. **The Inductive Bias of In-Context Learning: Rethinking Pretraining Example Design** [ICLR2022] [[paper link](https://arxiv.org/pdf/2110.04541)]
 
-    在大规模语言模型（NLM）的预训练中，通常将文本切割成连续的训练示例（chunk）进行处理。作者提出：模型对那些出现在同一个训练示例内部的句子或片段，能够学习更强的依赖关系；而跨示例的信息关联能力则显著弱於前者，这形成了一种所谓的 in‑context bias（上下文内偏好）。
-
 20. **A theoretical study of inductive biases in contrastive learning** [ICLR2023] [[paper link](https://arxiv.org/pdf/2211.14699)]
-
-    文章探索模型结构中隐含的归纳偏好对 contrastive 学习重要性。即模型架构自身（如可表达性、维度限制）对学习过程施加归纳偏差，从而影响最终的聚类结构与下游性能。
 
 21. **Strong inductive biases provably prevent harmless interpolation** [ICLR2023] [[paper link](https://arxiv.org/pdf/2301.07605)]
 
-    传统观点认为，对噪声的拟合会损害泛化，因此应该避免“插值”（interpolation）。然而在过参数模型中，许多模型即使完美拟合噪声仍能泛化良好（即 benign overfitting 或 harmless interpolation）。本文提出：是否能做到 harmless interpolation，强烈依赖学习器的归纳偏好强度——太强的 inductive bias 反而阻碍在噪声上的 harmless 插值，而偏弱的 inductive bias 则可能需要拟合部分噪声才能泛化良好。
-
 22. **Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture** [ICLR2025] [[paper link](https://arxiv.org/pdf/2410.12025)]
-
-    几何不变性假设（GIH）：该假设揭示了神经网络在输入空间的几何结构具有架构依赖的诱导偏置，即在特定方向上的曲率保持不变。这种几何结构的演化决定了模型的决策边界和泛化能力，体现了模型在输入空间中的归纳偏置。
 
 23. **Generalization through variance: how noise shapes inductive biases in diffusion models** [ICLR2025] [[paper link](https://arxiv.org/pdf/2504.12532)]
 
-    扩散模型（diffusion models）为何能够超越训练集生成新样本？这是一个令人疑惑的现象，因为理论上训练目标是学习训练分布的 score 函数，且网络表达能力足够强大到可以完全记忆训练数据。作者认为关键在于 DSM（denoising score matching）目标的一个特性：它并不是直接逼近真实 score，而是一个带噪声、在期望上等于真实 score的“代理 score”。这种噪声带来的方差成为模型泛化的重要来源。于是提出了“through variance generalization（通过方差实现泛化）”这一现象。
-
 24. **Combining Induction and Transduction for Abstract Reasoning** [ICLR2025] [[paper link](https://arxiv.org/pdf/2411.02272)]
-
-    人类通常 先归纳出一个潜在函数（rule），再用它解释示例并预测新输入；而神经网络则可直接 对测试输入进行预测（transduction），无需明确函数构建。作者探讨一个核心问题：在样本极少时，**首先找到潜在函数是否更优？或者直接预测结果更有效？这两种范式究竟有何不同？验证它们各擅所长：Induction 擅长精确计算、多概念复合；Transduction 更擅长处理含有不确定、模糊感知规则的场景；演示这两种范式互补，并通过集成方式提升整体性能，接近人类水平。【ARC】【ARC为基础的合成任务】【准确率】【Induction和Transduction两种模型】
 
 25. **Language Models Need Inductive Biases to Count Inductively** [ICLR2025] [[paper link](https://arxiv.org/pdf/2405.20131)]
 
-      Counting（计数） 是多跳推理、算法模拟、形式语言识别的核心能力。现有语言模型在训练长度有限、测试长度超出训练范围（long‑length OOD）时往往无法正确计数。作者聚焦一个更基础的问题：不同架构的语言模型能否“归纳”计数原理，以实现长度泛化？哪些 inductive bias 是必须的？。传统 RNN 自带归纳偏好，可自然泛化计数；Transformer 需要依赖某种位置编码才能支撑 OOD 泛化 —— 说明这些位置编码本身定义了一种 inductive bias；实验还揭示：现代 RNN（为并行化训练设计）反而丢失这种 inductive bias，性能下降。【count】【对应数据集】【准确率】【RNN/LSTM, Transformers, S4以及 RWKV】
-
 26. **Examining the Inductive Bias of Neural Language Models with Artificial Languages** [ACL2021] [[paper link](https://aclanthology.org/2021.acl-long.38.pdf)]  
-
-      探究神经语言模型（如LSTM和Transformer）是否对特定类型的语言结构具有归纳偏置（Inductive Bias）。通过概率上下文无关文法（PCFG）生成内容相同但词序不同的平行句子，以困惑度作为性能指标。发现：LSTM：对所有词序变体表现相似，无明显偏置。Transformer：对某些词序（如OVS）表现显著更好，但其偏置与自然语言的普遍词序（如SOV/SVO）无关。【预测下一个词】【64种人工语言（通过PCFG生成）】【困惑度（Perplexity）】【LSTM、Transformer】
 
 27. **Coloring the Blank Slate: Pre-training Imparts a Hierarchical Inductive Bias to Sequence-to-sequence Models**  [ACL2022] [[paper link](https://aclanthology.org/2022.findings-acl.106.pdf)] 
 
-      证明预训练seq2seq模型能够通过大规模预训练，获得层次化的归纳偏置，从而在句法转换任务中表现出对句子层次结构的敏感性。【疑问句生成、将主动句转换为被动句】【使用上下文无关语法生成的英语和德语句子】【序列准确率、主助动词准确率、宾语名词准确率】【预训练的seq2seq模型】
-
 28. **Measuring Inductive Biases of In-Context Learning with Underspecified Demonstrations**  [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.632.pdf)] 
-
-      研究ICL的inductive biases，在任务定义模糊的情况下，LLMs倾向于依赖哪些特征进行预测。如GPT-3更倾向情感而非标点符号。尝试多种干预方法（自然语言指令、语义标签、模板解释、去歧义示例）来引导模型偏好特定特征。【文本分类（情感分析、毒性检测、自然语言推理、问答）的模糊上下文学习】【情感分析：IMDb + Yelp；毒性检测：CivilComments；自然语言推理：MultiNLI；问答：BoolQ】【h-accuracy】【GPT-3】
 
 29. **How to Plant Trees in LMs: Data and Architectural  Effects on the Emergence of Syntactic Inductive Biases**  [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.629.pdf)] 
 
-      探索预训练过程中哪些因素（如模型架构和训练数据）会影响LMs在微调任务中表现出层次化句法归纳偏好。用不同参数的模型在多种数据集上实验。发现，模型深度更为关键，模型在更简单的数据（如儿童导向语料）上能更快形成层次化归纳偏好。【句法转换任务】【预训练数据：CHILDES（儿童导向语料）、维基百科、简化版维基百科、C4网页文本; 微调数据：基于McCoy et al.】【序列准确率、主助动词准确率、宾语准确率】【不同超参数T5】
-
 30. **Instruction Induction: From Few Examples  to Natural Language Task Descriptions** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.108.pdf)] 
-
-      验证大语言模型能否通过归纳示例中的模式，生成可解释的自然语言指令。方法是用大模型生成指令，通过执行准确率和语义相似度评估。经过指令调优的模型（InstructGPT）能较好生成指令，达到人类性能的65.7%。【指令归纳（从示例生成指令）及指令执行评估】【24个任务（如复数化、反义词生成、形式化转换、句子相似度等），部分来自公开数据集（如GLUE、WordNet），部分自建（如数字求和、翻译任务）】【BERTScore（语义相似度）、执行准确率】【GPT-3系列】
 
 31. **Too Big to Fail: Larger Language Models are Disproportionately Resilient  to Induction of Dementia-Related Linguistic Anomalies** [ACL2024] [[paper link](https://aclanthology.org/2024.findings-acl.380.pdf)]
 
-      研究LLMs是否模型规模越大，对注意力头的掩码（模拟神经退行性损伤）表现出更强的抵抗力，从而探索其在模拟阿尔茨海默病等神经退行性疾病语言异常中的潜力。发现大型语言模型表现出更强的抗干扰能力。【检测阿尔茨海默病相关的语言异常】【ADReSS（阿尔茨海默病语音识别挑战数据集）和WLS（威斯康星纵向研究数据集）】【困惑度、分类准确率、AUC】【GPT-2】
-
 32. **Identifying Semantic Induction Heads to Understand In-Context Learning** [ACL2024] [[paper link](https://aclanthology.org/2024.findings-acl.412.pdf)] 
-
-      研究LLMs中注意力头如何编码高级语义关系，以增强对模型内部机制和上下文学习（ICL）能力的理解，从而提高模型的可解释性。提出“语义归纳头”，将ICL能力分为三个层次（损失减少、格式遵循、模式发现），并研究其与语义归纳头的相关性。【分析注意力头对语义关系的编码能力，研究ICL能力的渐进发展】【AGENDA（知识图谱生成数据集）、SlimPajama（训练用数据集）】【关系指数、复制分数、格式准确率、预测准确率】【InternLM2-1.8B】
 
 33. **Information Locality as an Inductive Bias for Neural Language Models**  [ACL2025] [[paper link](https://aclanthology.org/2025.acl-long.1357.pdf)] 
 
-      针对神经LMs与人类认知偏好的对齐争议，提出局部熵作为指标，通过扰动自然语言和合成语言实验，证明模型与人类共享“信息局部性”这一归纳偏置。提出m-local entropy框架，通过控制变量实验验证局部统计结构对神经LMs学习难度的影响。【语言模型学习难度评估】【自然语言：BLLIP语料库、合成语言：PFSA生成的合成数据集】【下一符号交叉熵、KL散度】【LSTM、Transformer】
-
 34. **Do Robot Snakes Dream like Electric Sheep?  Investigating the Effects of Architectural Inductive Biases on Hallucination**  [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.60.pdf)] 
-
-      针对LLMs幻觉问题，从架构的归纳偏差角度出发，对比不同模型在多样任务中的表现，揭示其与幻觉类型的关联性。方法：系统评估多种架构LLMs在标准化幻觉任务中的行为差异，结合规模与微调分析。【闭卷问答、摘要生成、阅读理解、指令跟随、幻觉检测、事实核查】【NQ-Open、TriviaQA、TruthfulQA、PopQA、XSUM、CNN/DM、RACE、SQuADv2、MemoTrap、IFEval、FaithDial、HaluEval、FEVER等】【精确匹配（EM）、准确率（Accuracy）、Rouge-L等】【Transformer类：LLaMA2/3、Gemma、Falcon、Mistral、Mixtral；循环/混合类：Mamba、RecurrentGemma、FalconMamba、Jamba、RWKV/Finch】
 
 35. **Can Input Attributions Explain Inductive Reasoning  in In-Context Learning?** [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.1092.pdf)] 
 
-      探讨输入归因（IA）能否有效解释LLM在ICL中的归纳推理过程，提出设计包含歧义示例和唯一关键示例的ICL任务，比较四种IA方法和基线方法（如注意力权重、自生成解释）在识别关键示例上的表现。【合成归纳推理任务】【自建合成数据集】【Top-1和Top-2归因准确率】【Llama-2-7B/13B、Gemma-2-2B/9B/27B、Mistral-7B】
-
 36. **GCG-Based Artificial Languages  for Evaluating Inductive Biases of Neural Language Models**  [ACL2025] [[paper link](https://aclanthology.org/2025.conll-1.35.pdf)] 
-
-      探究LMs是否对高频语法模式（如特定词序）存在归纳偏好，使用PCFG生成人工语言而无法涵盖部分词序和复杂句法结构。提出通过广义范畴语法（GCG）构建更丰富的人工语言，通过困惑度分析LSTM和Transformer对词序的偏好动态。【评估神经LMs在不同词序人工语言上的学习表现】【GCG-ALs：96种人工语言（含VSO、OSV等新增词序）】【困惑度（PPL）】【LSTM、Transformer】
 
 37. **Studying the Inductive Biases of RNNs  with Synthetic Variations of Natural Languages** [NAACL2019] [[paper link](https://aclanthology.org/N19-1356.pdf)]
 
-      研究不同语言类型学特性（如词序、形态格标记）如何影响RNN学习语法的能力。通过生成合成语言，控制变量，研究RNN的归纳偏置。多主语-宾语一致性：联合预测主语和宾语的复数特征比单独预测更好，RNN能够学习跨任务的句法知识。词序：RNN在主语-动词-宾语（SVO）顺序（如英语）中表现优于主语-宾语-动词（SOV）顺序（如日语）。显性格标记：显性格标记显著提高了复数预测的准确性，即使词序灵活。归纳偏置：RNN倾向于依赖近期信息，且在缺乏明确语法标记时表现较差。【预测动词的主语和宾语的复数特征】【基于英语Penn Treebank生成合成语言语料库】【Accuracy、Recall】【双向LSTM】
-
 38. **On the Inductive Bias of Masked Language Modeling: From Statistical to Syntactic Dependencies** [NAACL2021] [[paper link](https://aclanthology.org/2021.naacl-main.404.pdf)]
-
-      证明掩码语言模型MLM的 inductive bias 并非来自设计精巧的掩码策略，而是隐式优化了变量间的条件互信息，能捕捉统计依赖。提出通过Gibbs采样从MLM中估计词对的条件互信息，构建最小生成树作为句法依赖树。
-    任务一：【掩码语言模型预训练：分析不同掩码策略（均匀、Cloze-like）对下游任务的影响】【SST-2（情感分析）Hyperpartisan（新闻党派分类）AGNews（新闻主题分类）】【Accuracy】【BERT】
-    任务二：【无监督句法分析：从MLM中提取统计依赖并生成句法树】【Penn Treebank（WSJ语料）】【无标号无向附着分数（UUAS）】【BERT】
 
 39. **Unveiling Divergent Inductive Biases of LLMs on Temporal Data** [NAACL2024] [[paper link](https://aclanthology.org/2024.naacl-short.20.pdf)]    
 
-      通过分析LLMs的预测偏好来量化其在时间关系推理中的inductive bias。采用了两种提示格式：问答格式（QA）：要求模型判断两个事件之间的时间关系（“BEFORE”或“AFTER”）。文本蕴含格式（TE）：要求模型评估给定时间关系陈述的真假。实验分为隐式事件（需从上下文中推断）和显式事件（直接提及的事件）两类。【时间关系分类、文本蕴含】【TimeBank、TempEval、AQUAINT、TRACIE】【模型对“BEFORE”和“AFTER”的预测偏好；模型对“TRUE”和“FALSE”的预测偏好】【GPT-3.5、GPT-4】
-
 40. **Text Annotation via Inductive Coding: Comparing Human Experts to  LLMs in Qualitative Data Analysis** [NAACL2025] [[paper link](https://aclanthology.org/2025.findings-naacl.361.pdf)]
-
-      定性数据分析（QDA）的手动编码过程耗时且易受主观偏差，LLMs为自动化编码提供可能。目前缺乏对LLMs在归纳性编码（即从数据中生成标签）表现的评估。比较LLMs在零样本、少样本和微调场景下的表现，并与人类专家的编码结果对比。【归纳性编码】【社会科学访谈数据、SemEval-2014的餐厅和笔记本评论数据】【语义相似性、词汇重叠、专家对标签的评分、与黄金标准的偏差、编码者间一致性】【LLMs】
 
 41. **Induction Heads as an Essential Mechanism for Pattern Matching in  In-context Learning** [NAACL2025] [[paper link](https://aclanthology.org/2025.findings-naacl.283.pdf)]
 
-      通过实验证明，大型语言模型中的“归纳头”是少样本上下文学习的核心机制，它们通过匹配和复制上下文中的模式（如“[A][B]...[A]→[B]”）实现归纳学习。方法：通过识别、消融和阻断归纳头，验证其对ICL性能的影响。【抽象模式识别任务（如字母序列分类）和NLP任务（如情感分析、自然语言推理）】【Letter-sequence tasks、WordSeq tasks、SuperGLUE（BoolQ, RTE等）、ETHOS、SST-2、SUBJ】【准确率、ICL收益】【Llama-3-8B和InternLM2-20B】
-
 42. **Profiling neural grammar induction on morphemically tokenised  child-directed speech** [NAACL2025] [[paper link](https://aclanthology.org/2025.cmcl-1.7.pdf)]
-
-      通过语素化分词和语言学指标，验证神经语法归纳模型是否能从儿童导向语音中归纳出合理的功能语素附着规则，发现高F1模型可能生成不符合语言认知的结构。方法：对输入分词后，用神经模型训练并提出新指标评估语言学合理性。【语法归纳】【CHILDES Treebank】【F1分数、depth-of-morpheme、sibling-of-morpheme】【神经模型：C-PCFG、N-PCFG、TN-PCFG（本文模型】
 
 43. **Effects of Parameter Norm Growth During Transformer Training:  Inductive Bias from Gradient Descent** [EMNLP2021] [[paper link](https://aclanthology.org/2021.emnlp-main.133.pdf)] 
 
-      研究参数范数增长的现象，揭示梯度下降在Transformer训练中引入的归纳偏置。参数范数的增长导致模型逼近饱和网络，饱和状态下，Transformer的注意力头分为两类：局部聚焦（argmax）和全局平均（mean）。【研究Transformer训练过程中参数范数增长对模型语言理解能力的影响】【T5预训练数据、Wikitext-2、Penn Treebank（PTB）、Brown语料库】【范数的增长趋势、模型表示与饱和网络的余弦相似性、注意力头的分布】【T5-base、BERT、RoBERTa、XLNet，以及自定义的小型Transformer语言模型】
-
 44. **Injecting structural hints:  Using language models to study inductive biases in language learning** [EMNLP2023] [[paper link](https://aclanthology.org/2023.findings-emnlp.563.pdf)]  
-
-      探索LLMs学习语言的归纳偏差，通过控制模型的初始结构，研究哪些结构（如递归性、上下文敏感性、词汇分布）更有利于自然语言的学习。未训练的GPT-2，使用合成数据预训练，注入特定的结构偏差，在自然语言数据上微调。评估结构偏差对语言学习的影响。【语言模型学习】【预训练数据：合成语言（NEST、CROSS、RAND、REP）；微调数据：Wikitext-103】【测试集困惑度】【GPT-2-small】
 
 45. **Scaling Laws vs Model Architectures:  How Does Inductive Bias Influence Scaling?** [EMNLP2023] [[paper link](https://aclanthology.org/2023.findings-emnlp.825.pdf)]   
 
-      研究不同模型架构（inductive biases）对scaling laws的影响。架构对缩放行为影响显著：不同架构的缩放斜率差异较大，Vanilla Transformer整体缩放效率最高。性能与规模的非一致性：Evolved Transformer难以扩展到更大规模；Performer等线性注意力模型缩放困难。上下游性能脱节：Funnel Transformer上游表现良好，但下游任务性能较差。【语言模型预训练和微调】【预训练：C4英文语料库；微调：GLUE、SuperGLUE、SQuAD】【Negative Log-Perplexity、GLUE/SuperGLUE准确率、SQuAD F1分数】【Transformer变体、非Transformer架构：Lightweight /Dynamic Convolutions、MLP-Mixer】
-
 46. **Syntactic Inductive Bias in Transformer Language Models:  Especially Helpful for Low-Resource Languages?** [EMNLP2023] [[paper link](https://aclanthology.org/2023.conll-1.17.pdf)]  
-
-      探索语法归纳偏置在低资源语言（如维吾尔语）的模型预训练中的有效性。基于微型BERT，结合两种SIB方法：语法对比损失：鼓励关注语法相关的结构。语法感知注意力：限制注意力仅关注语法依赖树中相邻token。发现SIB方法在低资源语言中效果不显著，词性标注任务与SIB无显著互补性。【语言模型预训练（掩码建模）；下游任务：依存句法分析（UD）、命名实体识别（NER）、PrOnto基准测试】【预训练数据：各语言的Wikipedia文本，下游数据：Universal Dependencies（UD）树库、WikiAnn NER数据集、PrOnto】【句法分析：LAS。NER：Span-based F1。PrOnto：Accuracy】【BERT】
 
 47. **Inductive Bias Is in the Eye of the Beholder** [EMNLP2023] [[paper link](https://aclanthology.org/2023.genbench-1.12.pdf)]   
 
-      探讨不同序列到序列神经网络模型（如CNN、LSTM、Transformer等）的归纳偏置。测试模型在层次化泛化和计数策略之间的偏好，在组合泛化和记忆之间的偏好。【层次化泛化与线性/计数泛化的区分任务、组合泛化与记忆的区分任务、SCAN数据集上的组合泛化任务】【自定义的字符串映射数据集、自定义的组合任务数据集、SCAN数据集】【完美一致比例、单例一致比例】【CNN、LSTM、Transformer】
-
 48. **It is not True that Transformers are Inductive Learners: Probing NLI Models with External Negation** [EACL 2024] [[paper link](https://aclanthology.org/2024.eacl-long.116.pdf)]  
-    研究Transformer在自然语言推理中是否能归纳学习外部否定的逻辑作用（LEM），检验其高分是否来自真正推理而非启发式；通过在假设前自动添加外部否定前缀（如“it is not true that”）构造挑战样本，并采用“接种微调”在不同否定深度与未见前缀（如“it is false that”）上测试泛化，系统评估RoBERTa/BART/DeBERTa在MNLI/SNLI上的表现，发现多数模型将外部否定当作干扰、难以归纳到更深/新前缀，少数RoBERTa仅能对单一前缀学会模式且出现灾难性遗忘。【自然语言推理（NLI）】【MNLI, SNLI（外部否定增强）】【Accuracy】【RoBERTa-large, BART-large, DeBERTa-large】
 
 49. **Inductive Knowledge Graph Completion with GNNs and Rules: An Analysis** [arXiv 2023] [[paper link](https://arxiv.org/abs/2308.07942)]
 
-    本文分析了在归纳式知识图谱补全任务中，基于图神经网络（GNNs，如 NBFNet）的方法为何优于规则学习方法（如 AnyBURL），并提出改进策略使规则方法性能接近甚至超越 GNN。通过解决两个主要问题——“零置信实体未被排序”和“仅依赖单一路径聚合证据”，作者设计了混合模型（rule-based + GNN重排序 /证据聚合），在标准归纳任务（如 FB15k-237、WN18RR、NELL-995）上实现接近甚至超越 NBFNet 的性能，同时保持规则方法的可解释性；而进一步使用对全图进行重排名的变体，则持续优于 NBFNet。【知识图谱补全（归纳式）】【FB15k-237, WN18RR, NELL-995 归纳版】【MRR, Hits@1, Hits@3, Hits@10】【AnyBURL (规则方法), NBFNet (GNN), 混合策略（规则 + GNN 重排序/证据聚合）】
-
 50. **How Well Can a Long Sequence Model Model Long Sequences? Comparing Architectural Inductive Biases on Long-Context Abilities** [COLING 2025] [[paper link](https://aclanthology.org/2025.coling-main.3.pdf)]
-
-    本文评估了各种“长序列模型”（包括纯序列模型、Transformer 变体及混合模型）在超出训练上下文长度下处理长文本序列的能力，揭示理论可扩展性并不总意味着实践中的稳定表现。通过在 Ruler 合成基准以及 needle-in-a-haystack 任务上进行比较，发现无论是纯序列层、注意力机制还是混合结构，所有模型在外推至更长序列时普遍表现不佳，且不同架构对序列格式的敏感性不同，表明归纳偏差的不一致性极大影响长上下文理解能力。【长序列建模】【Ruler 合成任务, needle-in-a-haystack 控制任务】【准确率】【Mamba2（纯序列模型）, Transformer++（改进 Transformer）, Mamba2Attn（混合模型）, RecurrentGemma, Sheared-LLaMA, RWKV 等】  
-
-
-## Evaluations
-
-1. **Is Forgetting Less a Good Inductive Bias for Forward Transfer?** [ICLR2023] [[paper link](https://arxiv.org/pdf/2211.14699)]
-
-   连续学习的核心目标之一是模型能从过去任务中积累知识，以更高效地学习新任务。然而，最近研究发现：减少灾难性遗忘（catastrophic forgetting）并不一定能带来正向迁移（forward transfer）的提升。这可能源自测量 forward transfer 的方式不当。作者认为，正确的 forward transfer Measure 应当聚焦于 在固定表示下新任务的适应难易程度，而不是不同任务训练策略之间的干扰。在训练序列中每到一个新任务时，冻结当前特征提取器 (feature extractor Φ)，只用少量样本学习线性分类器（k-shot probing），评估在下一任务上的泛化准确率。这里的 inductive bias 指：在连续学习过程中，对保留过去任务知识的偏好，可以提升未来任务的迁移效率。
-
-2. **A Comprehensive Evaluation of Inductive Reasoning Capabilities and Problem Solving in Large Language Models** [EACL 2024] [[paper link](https://aclanthology.org/2024.findings-eacl.22.pdf)]  
-   系统评估LLM在归纳推理与问题求解上的能力，强调归纳不仅是“规则归纳”还包含规则应用、结果/规则校验与新旧规则整合；提出三类符号任务（Polygon Grouping、Color Ordering、Character Mapping〈句子来自 App-Review〉）与五种实验设置（Rules Application/Induction/Results Validation/Rules Validation/Rules Incorporation），在少样本与CoT条件下对 Text-Davinci-003、GPT-3.5-turbo-16k、GPT-4 比较并考察随单元规模增大及OOD时的泛化；结果显示SotA模型在直观简单的符号任务上仍大量失误，小规模的完美并不保证可扩展，CoT/少样本仅有限缓解且遇分布偏移显著下降，GPT-4虽更强但随规模增大亦有明显退化。【归纳推理评测（符号推理）】【自构造符号任务：Polygon Grouping / Color Ordering / Character Mapping（App-Review）】【Valid Acc, Partial Acc, Full Acc】【Text-Davinci-003, GPT-3.5-turbo-16k, GPT-4】
-
-3. **ReproHum #0712-01: Human Evaluation Reproduction Report for “Hierarchical Sketch Induction for Paraphrase Generation”** [HumEval 2024] [[paper link](https://aclanthology.org/2024.humeval-1.18.pdf)]  
-
-   本文复现实验 Hosking 等（2022）关于 HRQ-VAE 模型生成同义句的人类评价，通过尽可能复制评价流程（包括评估平台、评价标准等），结果与原研究高度一致，表明该人类评价具备较高可复现性。【评价可复现性】【同义句生成评价实验复现】【评价一致性指标（与原结果对比一致）】【—】
-
-4. **Evaluating Generalization Capability of Language Models across Abductive, Deductive and Inductive Logical Reasoning** [COLING 2025] [[paper link](https://aclanthology.org/2025.coling-main.330/)]  
-
-   本文旨在研究语言模型在归纳（inductive）、演绎（deductive）和溯因（abductive）三类基本逻辑推理方式之间是否具备泛化能力——即模型是否能从一种推理规则迁移到未见过的另一种规则上。作者构建了一个新逻辑推理数据集 UniADILR，专门用于评估模型跨推理类型的泛化性能，并系统测试 Transformer-based LMs 在面对“未见规则”的外推能力；结果揭示当前模型在这种迁移泛化上的显著弱点，为未来逻辑推理研究提供了重要启示。【逻辑推理泛化】【UniADILR】【—】【Transformer-based 语言模型】  
 
 
 ## Methods
