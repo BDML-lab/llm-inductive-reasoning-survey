@@ -114,4 +114,29 @@ If you think this survey helps, please cite our paper.
 
 #### Hypothesis Iteration
 
+- **From methodology to practice: Inductive iteration in comparative research** [Comparative Political Studies, 2015] [[paper link](https://journals.sagepub.com/doi/full/10.1177/0010414014554685)]
+
+- **Phenomenal Yet Puzzling: Testing Inductive Reasoning Capabilities of Language Models with Hypothesis Refinement** [ICLR2024] [[paper link](https://arxiv.org/pdf/2310.08559)]
+
+- **ARISE: Iterative Rule Induction and Synthetic Data Generation for Text Classification** [NAACL2025] [[paper link](https://aclanthology.org/2025.findings-naacl.359.pdf)]
+
+- **Patterns Over Principles: The Fragility of Inductive Reasoning in LLMs under Noisy Observations**  [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.1006.pdf)]
+
+- **IDEA: Enhancing the Rule Learning Ability of Large Language Model Agent through Induction, Deduction, and Abduction** [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.698.pdf)]
+
+#### Hypothesis Evolution
+
+- **The hypothesis of interactive evolution** [Kybernetes, 2011] [[paper link](https://www.emerald.com/k/article-abstract/40/7-8/1021/440854/The-hypothesis-of-interactive-evolution?redirectedFrom=fulltext)]
+
+- **Towards continuous scientific data analysis and hypothesis evolution** [AAAI2017] [[paper link](https://doi.org/10.1609/aaai.v31i1.11157)]
+
+- **Neuro-Symbolic Hierarchical Rule Induction** [ICML2022] [[paper link](https://proceedings.mlr.press/v162/glanois22a/glanois22a.pdf)]
+
+- **Zero-Shot On-the-Fly Event Schema Induction** [EACL2023] [[paper link](https://aclanthology.org/2024.findings-eacl.103.pdf)]
+
+- **Open-Domain Hierarchical Event Schema Induction by Incremental Prompting and Verification** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.312.pdf)]
+
+- **PRIMO: Progressive Induction for Multi-hop Open Rule Generation** [COLING2024] [[paper link](https://aclanthology.org/2024.lrec-main.1137.pdf)]
+
+- **Exploring the Evolution-Coupling Hypothesis: Do Enzymes’ Performance Gains Correlate with Increased Dissipation?** [Entropy, 2025] [[paper link](https://www.mdpi.com/1099-4300/27/4/365)]
 
