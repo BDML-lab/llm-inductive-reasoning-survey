@@ -213,7 +213,7 @@ If you think this survey helps, please cite our paper.
 | **RULEARN** |**IDEA: Enhancing the Rule Learning Ability of Large Language Model Agent through Induction, Deduction, and Abduction** |[paper link](https://arxiv.org/abs/2408.10455) |
 | **Cryptography**|**Patterns Over Principles: The Fragility of Inductive Reasoning in LLMs under Noisy Observations** |[paper link](https://aclanthology.org/2025.findings-acl.1006/) |
 | **GeoILP**|**Geoilp: A synthetic dataset to guide large-scale rule induction** |[paper link](https://openreview.net/forum?id=cfGpIcOIa5) |
-| **InstructionBench**|**InductionBench: LLMs Fail in the Simplest Complexity Class** |[paper link](https://aclanthology.org/2025.acl-long.1287/) |
+| **InductionBench**|**InductionBench: LLMs Fail in the Simplest Complexity Class** |[paper link](https://aclanthology.org/2025.acl-long.1287/) |
 | **CodeSeq**|**Code-driven Number Sequence Calculation: Enhancing the inductive Reasoning Abilities of Large Language Models** |[paper link](https://www.arxiv.org/abs/2510.14620) |
 
 ## Analysis
