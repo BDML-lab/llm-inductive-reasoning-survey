@@ -217,3 +217,57 @@ If you think this survey helps, please cite our paper.
 | **CodeSeq**|**Code-driven Number Sequence Calculation: Enhancing the inductive Reasoning Abilities of Large Language Models** |[paper link](https://www.arxiv.org/abs/2510.14620) |
 
 ## Analysis
+
+- **Demystifying Inductive Biases for (Beta-)VAE Based Architectures** [ICML2021] [[paper link](http://proceedings.mlr.press/v139/zietlow21a/zietlow21a.pdf)]
+
+- **Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent** [EMNLP2021] [[paper link](https://aclanthology.org/2021.emnlp-main.133.pdf)] 
+
+- **Examining the Inductive Bias of Neural Language Models with Artificial Languages** [ACL2021] [[paper link](https://aclanthology.org/2021.acl-long.38.pdf)]
+
+- **What they do when in doubt: a study of inductive biases in seq2seq learners** [ICLR2021] [[paper link](https://arxiv.org/abs/2006.14953)]
+
+- **Predicting Inductive Biases of Pre-Trained Models** [ICLR2021] [[paper link](https://openreview.net/pdf?id=mNtmhaDkAr)]
+
+-  **The Inductive Bias of ReLU Networks on Orthogonally Separable Data** [ICLR2021] [[paper link](https://openreview.net/pdf?id=krz7T0xU9Z_)]
+
+- **Inductive Biases and Variable Creation in Self-Attention Mechanisms** [ICML2022] [[paper link](https://proceedings.mlr.press/v162/edelman22a/edelman22a.pdf)]
+
+- **Fast Rates for Noisy Interpolation Require Rethinking the Effects of Inductive Bias** [ICML2022] [[paper link](https://proceedings.mlr.press/v162/donhauser22a/donhauser22a.pdf)]
+
+- **The SSL Interplay: Augmentations, Inductive Bias, and Generalization** [ICML2023] [[paper link](https://openreview.net/pdf?id=d2aohFmZoB)]
+
+- **Injecting structural hints: Using language models to study inductive biases in language learning** [EMNLP2023] [[paper link](https://aclanthology.org/2023.findings-emnlp.563.pdf)]
+
+- **Inductive Bias Is in the Eye of the Beholder** [EMNLP2023] [[paper link](https://aclanthology.org/2023.genbench-1.12.pdf)]
+
+- **Measuring Inductive Biases of In-Context Learning with Underspecified Demonstrations**  [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.632.pdf)]
+
+- **Instruction Induction: From Few Examples  to Natural Language Task Descriptions** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.108.pdf)]
+
+- **How to Plant Trees in LMs: Data and Architectural Effects on the Emergence of Syntactic Inductive Biases**  [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.629.pdf)] 
+
+- **A theoretical study of inductive biases in contrastive learning** [ICLR2023] [[paper link](https://arxiv.org/pdf/2211.14699)]
+
+- **Strong inductive biases provably prevent harmless interpolation** [ICLR2023] [[paper link](https://arxiv.org/pdf/2301.07605)]
+
+- **Identifying Semantic Induction Heads to Understand In-Context Learning** [ACL2024] [[paper link](https://aclanthology.org/2024.findings-acl.412.pdf)] 
+
+- **The Evolution of Statistical Induction Heads: In-Context Learning Markov Chains** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/75b0edb869e2cd509d64d0e8ff446bc1-Paper-Conference.pdf)]
+
+- **Unveiling Induction Heads: Provable Training Dynamics and Feature Learning in Transformers** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/7aae9e3ec211249e05bd07271a6b1441-Paper-Conference.pdf)]
+
+- **Inductive biases of multi-task learning and finetuning: multiple regimes of feature reuse** [NIPS2024] [[paper link](https://papers.nips.cc/paper_files/paper/2024/file/d7346ff79699b5bba26f8af89e700a95-Paper-Conference.pdf)]
+
+- **What needs to go right for an induction head? A mechanistic study of in-context learning circuits and their formation** [ICML2024] [[paper link](https://openreview.net/pdf?id=O8rrXl71D5)]
+
+- **Position: The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning** [ICML2024] [[paper link](https://openreview.net/pdf?id=EaJ7nqJ2Fa)]
+
+- **Induction Heads as an Essential Mechanism for Pattern Matching in  In-context Learning** [NAACL2025] [[paper link](https://aclanthology.org/2025.findings-naacl.283.pdf)]
+
+- **Can Input Attributions Explain Inductive Reasoning  in In-Context Learning?** [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.1092.pdf)]
+
+- **Beyond Induction Heads: In-Context Meta Learning Induces Multi-Phase Circuit Emergence** [ICML2025] [[paper link](https://openreview.net/pdf?id=Xw01vF13aV)]
+
+- **When Diffusion Models Memorize: Inductive Biases in Probability Flow of Minimum-Norm Shallow Neural Nets** [ICML2025] [[paper link](https://openreview.net/pdf?id=WD2CKUrxmx)]
+
+- **Geometric Inductive Biases of Deep Networks: The Role of Data and Architecture** [ICLR2025] [[paper link](https://arxiv.org/pdf/2410.12025)]
