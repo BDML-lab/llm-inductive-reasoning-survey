@@ -165,9 +165,9 @@ If you think this survey helps, please cite our paper.
 
 - **Video-aided Unsupervised Grammar Induction** [NAACL2021] [[paper link](https://aclanthology.org/2021.naacl-main.119.pdf)]
 
-- **Fire Burns, Sword Cuts: Commonsense Inductive Bias for  Exploration in Text-based Games**  [ACL2022] [[paper link](https://aclanthology.org/2022.acl-short.56.pdf)] 
+- **Fire Burns, Sword Cuts: Commonsense Inductive Bias for Exploration in Text-based Games**  [ACL2022] [[paper link](https://aclanthology.org/2022.acl-short.56.pdf)] 
 
-- **IAG: Induction-Augmented Generation Framework for Answering  Reasoning Questions** [EMNLP2023] [[paper link](https://aclanthology.org/2023.emnlp-main.1.pdf)]
+- **IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions** [EMNLP2023] [[paper link](https://aclanthology.org/2023.emnlp-main.1.pdf)]
 
 - **Limitations of Language Models in Arithmetic and Symbolic Induction** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.516.pdf)]
 
@@ -193,3 +193,27 @@ If you think this survey helps, please cite our paper.
 - **Learning Rule-Induced Subgraph Representations for Inductive Relation Prediction** [NIPS2023] [[paper link](https://papers.nips.cc/paper_files/paper/2023/file/0b06c8673ebb453e5e468f7743d8f54e-Paper-Conference.pdf)]
 
 - **Leveraging Grammar Induction for Language Understanding and Generation** [EMNLP2024] [[paper link](https://aclanthology.org/2024.findings-emnlp.259.pdf)]
+
+## Benchmarks
+
+| **Benchmark Name** | **Paper Name** |**Paper Link** |
+|----------------|----------------|----------------|
+| **SCAN**| **Human few-shot learning of compositional instructions** |[paper link](https://mindmodeling.org/cogsci2019/papers/0123/index.html) |
+| **ARC**| **On the Measure of Intelligence** |[paper link](https://arxiv.org/abs/1911.01547) |
+| **List Functions**| **The child as hacker: building more human-like models of learning** |[paper link](https://dspace.mit.edu/handle/1721.1/129232) |
+| **PROGES** |**A large-scale benchmark for few-shot program induction and synthesis** |[paper link](https://proceedings.mlr.press/v139/alet21a.html) |
+| **SyGuS**|**BUSTLE: bottom-up program synthesis through learningguided exploration** |[paper link](https://openreview.net/forum?id=yHeg4PbFHh) |
+| **ACRE** |**ACRE: Abstract Causal REasoning Beyond Covariation** |[paper link](https://ieeexplore.ieee.org/document/9578352/) |
+| **ILP**|**Neuro-Symbolic Hierarchical Rule Induction** |[paper link](https://proceedings.mlr.press/v162/glanois22a.html) |
+| **Instructions**|**Instruction Induction: From Few Examples to Natural Language Task Description** |[paper link](https://arxiv.org/abs/2205.10782) |
+| **Arithmetics**|**Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks** |[paper link](https://doi.org/10.18653/V1/2024.NAACL-LONG.102) |
+| **Levy/Holt**|**Explicit Inductive Inference using Large Language Models** |[paper link](https://doi.org/10.18653/V1/2024.FINDINGS-EMNLP.926) |
+| **NutFrame**|**NutFrame: Frame-based Conceptual Structure Induction with LLMs** |[paper link](https://aclanthology.org/2024.lrec-main.1079) |
+| **DEER**|**Language Models as Inductive Reasoners** |[paper link](https://aclanthology.org/2024.eacl-long.13/) |
+| **RULEARN** |**IDEA: Enhancing the Rule Learning Ability of Large Language Model Agent through Induction, Deduction, and Abduction** |[paper link](https://arxiv.org/abs/2408.10455) |
+| **Cryptography**|**Patterns Over Principles: The Fragility of Inductive Reasoning in LLMs under Noisy Observations** |[paper link](https://aclanthology.org/2025.findings-acl.1006/) |
+| **GeoILP**|**Geoilp: A synthetic dataset to guide large-scale rule induction** |[paper link](https://openreview.net/forum?id=cfGpIcOIa5) |
+| **InstructionBench**|**InductionBench: LLMs Fail in the Simplest Complexity Class** |[paper link](https://aclanthology.org/2025.acl-long.1287/) |
+| **CodeSeq**|**Code-driven Number Sequence Calculation: Enhancing the inductive Reasoning Abilities of Large Language Models** |[paper link](https://www.arxiv.org/abs/2510.14620) |
+
+## Analysis
