@@ -100,7 +100,7 @@ If you think this survey helps, please cite our paper.
 
 #### Hypothesis Selection
 
-- **Feature selection and hypothesis selection models of induction** [Proceedings of the Annual Meeting of the Cognitive Science Society, volume 12, 1990] [[paper link](https://escholarship.org/uc/item/7253w5x5)]
+- **Feature selection and hypothesis selection models of induction** [CogSci, volume 12, 1990] [[paper link](https://escholarship.org/uc/item/7253w5x5)]
 
 - **Private hypothesis selection** [Advances in Neural Information Processing Systems, 32, 2019] [[paper link](https://arxiv.org/pdf/1905.13229)]
 
@@ -140,3 +140,56 @@ If you think this survey helps, please cite our paper.
 
 - **Exploring the Evolution-Coupling Hypothesis: Do Enzymes’ Performance Gains Correlate with Increased Dissipation?** [Entropy, 2025] [[paper link](https://www.mdpi.com/1099-4300/27/4/365)]
 
+
+###  Data Augmentation
+
+#### Human Intervention
+
+- **Semi-supervised New Event Type Induction and Event Detection** [EMNLP2020] [[paper link](https://aclanthology.org/2020.emnlp-main.53.pdf)]
+
+- **Large Scale Substitution-based Word Sense Induction** [ACL2022] [[paper link](https://aclanthology.org/2022.acl-long.325.pdf)]
+
+- **Human-in-the-Loop Schema Induction** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-demo.1.pdf)]
+
+- **Semi-supervised New Event Type Induction and Description via Contrastive Loss-Enforced Batch Attention** [EACL 2023] [[paper link](https://aclanthology.org/2024.eacl-long.42.pdf)]
+
+- **A(More) Realistic Evaluation Setup for Generalisation of Community Models on Malicious Content Detection** [NAACL2024] [[paper link](https://aclanthology.org/2024.findings-naacl.30.pdf)] 
+
+#### External Knowledge
+
+- **“A Little Birdie Told Me ... ”- Inductive Biases for Rumour Stance Detection on Social Media** [EMNLP2020] [[paper link](https://aclanthology.org/2020.wnut-1.31.pdf)]
+
+- **Knowledge-Enriched Event Causality Identification via Latent Structure  Induction Networks** [ACL2021] [[paper link](https://aclanthology.org/2021.acl-long.376v2.pdf)]
+
+- **Bilingual Lexicon Induction via Unsupervised Bitext Construction and Word Alignment** [ACL2021] [[paper link](https://aclanthology.org/2021.acl-long.67.pdf)]
+
+- **Video-aided Unsupervised Grammar Induction** [NAACL2021] [[paper link](https://aclanthology.org/2021.naacl-main.119.pdf)]
+
+- **Fire Burns, Sword Cuts: Commonsense Inductive Bias for  Exploration in Text-based Games**  [ACL2022] [[paper link](https://aclanthology.org/2022.acl-short.56.pdf)] 
+
+- **IAG: Induction-Augmented Generation Framework for Answering  Reasoning Questions** [EMNLP2023] [[paper link](https://aclanthology.org/2023.emnlp-main.1.pdf)]
+
+- **Limitations of Language Models in Arithmetic and Symbolic Induction** [ACL2023] [[paper link](https://aclanthology.org/2023.acl-long.516.pdf)]
+
+- **Re-evaluating the Need for Multimodal Signals in Unsupervised Grammar Induction** [NAACL2024] [[paper link](https://aclanthology.org/2024.findings-naacl.70.pdf)]
+
+- **How Lexicalis Bilingual Lexicon Induction?** [NAACL2024] [[paper link](https://aclanthology.org/2024.findings-naacl.273.pdf)]
+
+- **INDUCT-LEARN: Short Phrase Prompting with Instruction Induction** [EMNLP2024] [[paper link](https://aclanthology.org/2024.emnlp-main.297.pdf)]
+
+- **Inductive Linguistic Reasoning with Large Language Models**  [ACL2025] [[paper link](https://aclanthology.org/2025.findings-acl.1171.pdf)]
+
+- **Decision Tree Induction Through LLMs via Semantically-Aware Evolution** [ICLR2025] [[paper link](https://arxiv.org/pdf/2503.14217)]
+
+
+#### Structured Signals
+
+- **Probing as Quantifying Inductive Bias** [ACL2022] [[paper link](https://aclanthology.org/2022.acl-long.129.pdf)]
+
+- **On Bilingual Lexicon Induction with Large Language Models** [EMNLP2023] [[paper link](https://aclanthology.org/2023.emnlp-main.595.pdf)]
+
+- **Learning Query Adaptive Anchor Representation for Inductive Relation Prediction** [ACL2023] [[paper link](https://aclanthology.org/2023.findings-acl.882.pdf)]
+
+- **Learning Rule-Induced Subgraph Representations for Inductive Relation Prediction** [NIPS2023] [[paper link](https://papers.nips.cc/paper_files/paper/2023/file/0b06c8673ebb453e5e468f7743d8f54e-Paper-Conference.pdf)]
+
+- **Leveraging Grammar Induction for Language Understanding and Generation** [EMNLP2024] [[paper link](https://aclanthology.org/2024.findings-emnlp.259.pdf)]
